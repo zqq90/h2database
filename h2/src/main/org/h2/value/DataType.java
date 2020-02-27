@@ -186,6 +186,7 @@ public class DataType {
         add(Value.STRING, Types.VARCHAR,
                 createString(true),
                 new String[]{"VARCHAR", "CHARACTER VARYING", "VARCHAR2", "NVARCHAR", "NVARCHAR2",
+                    "BPCHAR",
                     "VARCHAR_CASESENSITIVE", "TID"}
         );
         add(Value.STRING, Types.LONGVARCHAR,
