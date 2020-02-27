@@ -4,7 +4,7 @@
 
   <groupId>com.h2database</groupId>
   <artifactId>h2</artifactId>
-  <version>1.4.201-SNAPSHOT</version>
+  <version>1.4.200-xframe-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>H2 Database Engine</name>
   <url>https://h2database.com</url>
@@ -43,6 +43,21 @@
     <slf4j.version>1.6.0</slf4j.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+
+  <repositories>
+    <repository>
+      <id>lenovo</id>
+      <name>lenovo</name>
+      <url>http://maven.xpaas.lenovo.com/nexus/content/groups/public/</url>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>lenovo</id>
+      <name>lenovo</name>
+      <url>http://maven.xpaas.lenovo.com/nexus/content/groups/public/</url>
+    </pluginRepository>
+  </pluginRepositories>
 
   <dependencies>
 
