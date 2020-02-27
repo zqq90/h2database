@@ -200,6 +200,7 @@ public class DataType {
                 new String[]{"VARCHAR", "CHARACTER VARYING", "CHAR VARYING",
                         "NCHAR VARYING", "NATIONAL CHARACTER VARYING", "NATIONAL CHAR VARYING",
                         "VARCHAR2", "NVARCHAR", "NVARCHAR2",
+                        "BPCHAR",
                         "VARCHAR_CASESENSITIVE", "TID",
                         "LONGVARCHAR", "LONGNVARCHAR"}
         );
