@@ -344,7 +344,7 @@ public class DataType {
         }
         add(Value.JSON, Types.OTHER,
                 createString(true, "JSON '", "'"),
-                new String[]{"JSON"}
+                new String[]{"JSON", "JSONB"}
         );
         // Row value doesn't have a type name
         dataType = new DataType();
